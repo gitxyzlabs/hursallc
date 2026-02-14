@@ -2,7 +2,6 @@ import { motion } from "motion/react";
 import { Link } from "react-router";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
-import beachPhoto from "figma:asset/86213babbdc5d21b5c97cc2b8380bf4119838c63.png";
 
 export function Home() {
   return (
@@ -185,8 +184,8 @@ export function Home() {
             >
               <Link to="/photography" className="block">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-zinc-900">
-                  <img
-                    src={beachPhoto}
+                  <ImageWithFallback
+                    src="https://images.unsplash.com/photo-1678393834156-f8aed69b05f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwcGFsbSUyMHRyZWVzfGVufDF8fHx8MTc3MDk0NDExOHww&ixlib=rb-4.1.0&q=80&w=1080"
                     alt="Tropical Beach Photography"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />

@@ -2,12 +2,11 @@ import { motion } from "motion/react";
 import { useState } from "react";
 import { X } from "lucide-react";
 import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
-import beachPhoto from "figma:asset/86213babbdc5d21b5c97cc2b8380bf4119838c63.png";
 
 const photos = [
   {
     id: 1,
-    src: beachPhoto,
+    src: "https://images.unsplash.com/photo-1678393834156-f8aed69b05f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cm9waWNhbCUyMGJlYWNoJTIwcGFsbSUyMHRyZWVzfGVufDF8fHx8MTc3MDk0NDExOHww&ixlib=rb-4.1.0&q=80&w=1080",
     category: "Travel",
     title: "Tropical Paradise",
     description: "Palm trees swaying over turquoise waters",
